@@ -89,7 +89,7 @@ main h1 {
 
 .img_card img {
     height: 200px;
-    height: 200px;
+  
 }
 
 main h4 {
@@ -146,6 +146,10 @@ main h4 {
     border-radius: 4px;
 }
 
+.design__card>div a {
+    color: #aaa;
+}
+
 .my__img img {
     width: 120px;
     height: 120px;
@@ -200,6 +204,13 @@ main h4 {
 #footer__section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 7em 0 0 0;
+}
+
+.footer__section ul {
+    padding: 0;
 }
 
 li {
@@ -223,20 +234,38 @@ li a {
 
 }
 
-/* 
-@media (min-width: 1200px) .container,
-.container-xl {
-    max-width: 1140px;
-}
+@media screen and (min-device-width: 311px) and (max-device-width: 480px) {
+    .navbar-nav{
+        display: none;
+    }
+    main h1{
+        width: 100%;
+        font-size: 30px;
+    }
 
-@media (min-width: 992px) .container {
-    max-width: 960px;
-}
+    .service_card {
+        flex-direction: column;
+        gap: 0;
+       
+    }
+    .service_card .card{
+        width: 100%;
+       
+    }
 
-@media (min-width: 768px) .container {
-    max-width: 720px;
-}
+    .design__card {
+        grid-template-columns: repeat(1, 1fr);
 
-@media (min-width: 576px) .container {
-    max-width: 540px;
-} */
+    }
+
+    .blog__card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team__card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #footer__section {
+        grid-template-columns: repeat(1, 1fr);
+    }}
