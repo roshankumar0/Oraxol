@@ -82,9 +82,8 @@ main h1 {
 }
 
 .img_card {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
 }
 
 .img_card img {
@@ -238,6 +237,9 @@ li a {
     .navbar-nav{
         display: none;
     }
+    .navbar{
+        margin: 15px 10px;
+    }
     main h1{
         width: 100%;
         font-size: 30px;
@@ -251,6 +253,15 @@ li a {
     .service_card .card{
         width: 100%;
        
+    }
+    .img_card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    main{
+        padding: 0 10px;
+    }
+    .img_card img{
+        width: 100%;
     }
 
     .design__card {
