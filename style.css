@@ -323,6 +323,9 @@ li a {
     .team__card {
         grid-template-columns: repeat(1, 1fr);
     }
+    .contact__us{
+        grid-template-columns: 1fr;
+    }
 
     #footer__section {
         grid-template-columns: repeat(1, 1fr);
