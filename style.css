@@ -221,6 +221,12 @@ main h4 {
     border: 1px solid;
     padding: 40px;
 }
+.contact__info{
+    border: 1px solid;
+    border-left: 0;
+    border-right: 0;
+    margin: 50px;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -291,12 +297,20 @@ li a {
     .service_card {
         flex-direction: column;
         gap: 0;
+        margin-top: 4rem;
 
     }
 
     .service_card .card {
         width: 100%;
 
+    }
+    #SERVICES h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    #SERVICES{
+        padding: 6em 0;
     }
 
     .img_card {
