@@ -100,7 +100,7 @@ main h1 {
 main h4 {
     text-align: start;
     margin: 0 0 30px 20px;
-    width: 80%;
+    width: 50%;
     font-size: 15px;
     font-weight: 400;
     background: rgba(255, 255, 255, 0.05);
@@ -356,6 +356,12 @@ li a {
     font-size: 40px;
     font-weight: 600;
     line-height: 1.4;
+}
+.text{
+    margin-top: 20px;
+}
+.text span{
+    margin: 20px 0;
 }
 
 @media screen and (min-device-width: 311px) and (max-device-width: 480px) {
